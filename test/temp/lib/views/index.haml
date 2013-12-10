@@ -1,0 +1,9 @@
+
+%form.payment{:action => "/charge", :method => "post"}
+  %article
+    %label.amount
+      \- money = ::Money.new(settings.charge_amount, settings.charge_currency)
+      %span
+        Amount: #{money}
+  %script.stripe-button{"data-key" => settings.publishable_key, :src => "https://checkout.stripe.com/checkout.js"}
+

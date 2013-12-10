@@ -1,0 +1,11 @@
+<% if (availability == 'stripe') { %>
+%form.payment{:action => "/charge", :method => "post"}
+  %article
+    %label.amount
+      \- money = ::Money.new(settings.charge_amount, settings.charge_currency)
+      %span
+        Amount: #{money}
+  %script.stripe-button{"data-key" => settings.publishable_key, :src => "https://checkout.stripe.com/checkout.js"}
+<% } else { %>
+%a{:href => "https://www.hipchat.com/addons/install?url=#{ENV['BASE_URI']}/hipchat/capabilities/#{@account_id}"} Install HipChat Add-on
+<% } %>

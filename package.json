@@ -1,0 +1,50 @@
+{
+  "name": "generator-hipchat-addon",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator",
+    "coffeescript",
+    "grunt"
+  ],
+  "homepage": "https://github.com/logankoester/generator-hipchat-addon",
+  "bugs": "https://github.com/logankoester/generator-hipchat-addon/issues",
+  "author": {
+    "name": "Logan Koester",
+    "email": "logan@logankoester.com",
+    "url": "https://github.com/logankoester"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/logankoester/generator-hipchat-addon.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-mocha-cli": "~1.3.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

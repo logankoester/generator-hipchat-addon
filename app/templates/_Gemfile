@@ -1,0 +1,27 @@
+source 'https://rubygems.org'
+ruby '1.9.3'
+
+# API server
+gem 'grape'
+
+# Application server
+gem 'sinatra'
+gem 'rack-flash3'
+
+<% if (availability == 'stripe') { %># Billing
+gem 'stripe'
+gem 'money'<% } %>
+
+# Hipchat Add-on
+gem 'jwt'
+gem 'oauth2'
+
+# Database
+gem 'mongo_mapper', git: 'https://github.com/mongomapper/mongomapper.git'
+gem 'bson_ext'
+gem 'libv8' # https://github.com/mongomapper/mongomapper/issues/551
+
+# Tools / Debugging
+gem 'pry'
+gem 'rerun'
+gem 'http_logger'
