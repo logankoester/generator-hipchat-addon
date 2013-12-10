@@ -2,11 +2,11 @@
 
 [![Build Status](https://secure.travis-ci.org/logankoester/generator-hipchat-addon.png?branch=master)](https://travis-ci.org/logankoester/generator-hipchat-addon)
 
-A HipChat Connect Add-On is a standalone web application that you write and control, yet it can be installed into a HipChat room or account using the built-in Marketplace client.
+A [HipChat Connect Add-On](https://www.hipchat.com/docs/apiv2/addons) is a standalone web application that you write and control, yet it can be installed into a HipChat room or account using the built-in Marketplace client.
 
 This [Yeoman](yeoman.io) generator will create a [Sinatra](http://www.sinatrarb.com/) + [Grape](https://github.com/intridea/grape) application
 with everything you need to integrate with Hipchat Connect, including optional [Stripe](https://stripe.com/) integration to help you sell
-your add-ons.
+your add-ons if you choose.
 
 ## Getting Started
 
