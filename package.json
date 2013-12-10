@@ -1,7 +1,7 @@
 {
   "name": "generator-hipchat-addon",
   "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "description": "Create Sinatra-powered Hipchat Addons with Yeoman",
   "keywords": [
     "yeoman-generator",
     "coffeescript",
