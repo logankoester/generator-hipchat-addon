@@ -42,11 +42,22 @@ module.exports = (grunt) ->
     mochacli:
       all: ['test/**/*.js']
 
+    bump:
+      options:
+        commit: true
+        commitMessage: 'Release v%VERSION%'
+        commitFiles: ['package.json']
+        createTag: true
+        tagName: 'v%VERSION%'
+        tagMessage: 'Version %VERSION%'
+        push: false
+
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-mocha-cli'
+  grunt.loadNpmTasks 'grunt-bump'
   
   grunt.registerTask 'build', ['clean', 'copy', 'coffee']
   grunt.registerTask 'test', ['build', 'mochacli']
