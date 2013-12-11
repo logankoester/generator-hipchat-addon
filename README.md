@@ -31,3 +31,7 @@ You can set up a free environment on [Heroku](https://www.heroku.com/) and [Mong
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/logankoester/generator-hipchat-addon/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
