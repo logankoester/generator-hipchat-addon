@@ -4,7 +4,9 @@
 [![Dependency Status](https://david-dm.org/logankoester/grunt-rasterize.png)](https://david-dm.org/logankoester/generator-hipchat-addon)
 [![devDependency Status](https://david-dm.org/logankoester/grunt-rasterize/dev-status.png)](https://david-dm.org/logankoester/generator-hipchat-addon#info=devDependencies)
 
-A [HipChat Connect Add-On](https://www.hipchat.com/docs/apiv2/addons) is a standalone web application that you write and control, yet it can be installed into a HipChat room or account using the built-in Marketplace client.
+[![NPM](https://nodei.co/npm/generator-hipchat-addon.png?downloads=true)](https://nodei.co/npm/generator-hipchat-addon/)
+
+A [HipChat Connect Add-On](https://www.hipchat.com/docs/apiv2/addons) is a standalone web application that you write and control, yet it can be installed into a [HipChat](http://hipchat.com) room or account using the built-in [Marketplace](https://marketplace.atlassian.com/) client.
 
 This [Yeoman](yeoman.io) generator will create a [Sinatra](http://www.sinatrarb.com/) + [Grape](https://github.com/intridea/grape) application
 with everything you need to integrate with Hipchat Connect, including optional [Stripe](https://stripe.com/) integration to help you sell
