@@ -32,6 +32,24 @@ Set the necessary environment variables and then launch it with `rackup`.
 
 You can set up a free environment on [Heroku](https://www.heroku.com/) and [MongoHQ](https://www.mongohq.com/home).
 
+## Running the test suite
+
+    git clone https://github.com/logankoester/generator-hipchat-addon.git
+    cd generator-hipchat-addon
+    npm install
+    grunt test
+
+## Contributing
+
+Fork the repo on Github and open a pull request. Note that the files in `app/` and `test/` are the output of
+CoffeeScript files in `src/`, and will be overwritten if edited by hand.
+
+## Release History
+
+#### 0.1.1
+  * Initial release.
+
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
