@@ -62,12 +62,12 @@ module <%= appName %>
             account.hipchat_oauth_id,
             account.hipchat_oauth_secret,
             site: token_url,
-            scope: ENV['HIPCHAT_SCOPES'].split(' '),
+            scope: ENV['HIPCHAT_SCOPES'],
             token_url: token_url,
             authorization_url: authorization_url
           )
 
-          token = client.client_credentials.get_token.token
+          token = client.client_credentials.get_token({scope: ENV['HIPCHAT_SCOPES'] }).token
           account.hipchat_oauth_token = token
 
           account.save
