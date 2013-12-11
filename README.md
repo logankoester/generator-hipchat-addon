@@ -1,6 +1,8 @@
 # Hipchat Addon Generator
 
 [![Build Status](https://secure.travis-ci.org/logankoester/generator-hipchat-addon.png?branch=master)](https://travis-ci.org/logankoester/generator-hipchat-addon)
+[![Dependency Status](https://david-dm.org/logankoester/grunt-rasterize.png)](https://david-dm.org/logankoester/generator-hipchat-addon)
+[![devDependency Status](https://david-dm.org/logankoester/grunt-rasterize/dev-status.png)](https://david-dm.org/logankoester/generator-hipchat-addon#info=devDependencies)
 
 A [HipChat Connect Add-On](https://www.hipchat.com/docs/apiv2/addons) is a standalone web application that you write and control, yet it can be installed into a HipChat room or account using the built-in Marketplace client.
 
