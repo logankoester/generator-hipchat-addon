@@ -3,6 +3,7 @@
 [![Build Status](https://secure.travis-ci.org/logankoester/generator-hipchat-addon.png?branch=master)](https://travis-ci.org/logankoester/generator-hipchat-addon)
 [![Dependency Status](https://david-dm.org/logankoester/grunt-rasterize.png)](https://david-dm.org/logankoester/generator-hipchat-addon)
 [![devDependency Status](https://david-dm.org/logankoester/grunt-rasterize/dev-status.png)](https://david-dm.org/logankoester/generator-hipchat-addon#info=devDependencies)
+[![Gittip](http://img.shields.io/gittip/logankoester.png)](https://www.gittip.com/logankoester/)
 
 [![NPM](https://nodei.co/npm/generator-hipchat-addon.png?downloads=true)](https://nodei.co/npm/generator-hipchat-addon/)
 
