@@ -2,12 +2,13 @@ require 'open-uri'
 
 require 'grape'
 require 'sinatra'
-require 'stripe'
 require 'rack-flash'
 require 'jwt'
 require 'mongo_mapper'
-require 'money'
 require 'oauth2'
+<% if (availability == 'stripe') { %># Billing
+require 'stripe'
+require 'money'<% } %>
 
 configure do
   MongoMapper.setup({
