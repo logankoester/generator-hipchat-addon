@@ -1,6 +1,6 @@
 {
   "name": "generator-hipchat-addon",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create Sinatra-powered Hipchat Addons with Yeoman",
   "keywords": [
     "yeoman-generator",
