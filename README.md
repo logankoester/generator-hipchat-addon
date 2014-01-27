@@ -46,6 +46,11 @@ CoffeeScript files in `src/`, and will be overwritten if edited by hand.
 
 ## Release History
 
+#### 0.1.2
+
+  * Drops support for node v0.8.0 (minimum engine is now v0.10.0)
+  * Fix stripe and money dependencies (thanks [@harrigan](https://github.com/harrigan))
+
 #### 0.1.1
   * Initial release.
 
