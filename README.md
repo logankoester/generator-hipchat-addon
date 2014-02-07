@@ -46,6 +46,10 @@ CoffeeScript files in `src/`, and will be overwritten if edited by hand.
 
 ## Release History
 
+#### 0.1.4
+
+  * Resolves an issue wherein haml templates are generated but ERB is called for rendering (thanks [@harrigan](https://github.com/harrigan))
+
 #### 0.1.3
 
   * Drops support for node v0.8.0 (minimum engine is now v0.10.0)
