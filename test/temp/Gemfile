@@ -4,6 +4,9 @@ ruby '1.9.3'
 # API server
 gem 'grape'
 
+# Template engine
+gem 'haml'
+
 # Application server
 gem 'sinatra'
 gem 'rack-flash3'

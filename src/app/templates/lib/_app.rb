@@ -8,6 +8,7 @@ require 'jwt'
 require 'mongo_mapper'
 require 'money'
 require 'oauth2'
+require 'haml'
 
 configure do
   MongoMapper.setup({

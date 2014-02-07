@@ -3,11 +3,11 @@ module testApp
 
     get '/' do
       
-      erb :index
+      haml :index
     end
 
     get '/support' do
-      erb :support
+      haml :support
     end
 
     post '/charge' do
@@ -36,7 +36,7 @@ module testApp
       @account_id = account.id
 
       flash[:notice] = "Thanks, you paid #{money.format}"
-      erb :charge
+      haml :charge
     end
 
     get '/hipchat/configure/:account_id' do
@@ -50,11 +50,11 @@ module testApp
       else
         raise NoAccountError
       end
-      erb :configure
+      haml :configure
     end
 
     get '/thanks' do
-      erb :thanks
+      haml :thanks
     end
 
     error NoAccountError do
