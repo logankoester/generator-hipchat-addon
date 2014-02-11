@@ -21,8 +21,7 @@
     }
 
     HipchatAddonGenerator.prototype.askFor = function() {
-      var cb, prompts,
-        _this = this;
+      var cb, prompts;
       cb = this.async();
       prompts = [
         {
@@ -67,16 +66,18 @@
           message: 'com.myapp'
         }
       ];
-      return this.prompt(prompts, function(props) {
-        _this.useRvm = props.useRvm;
-        _this.appName = props.appName;
-        _this.availability = props.availability;
-        _this.vendorUrl = props.vendorUrl;
-        _this.vendorName = props.vendorName;
-        _this.appDescription = props.appDescription;
-        _this.appKey = props.appKey;
-        return cb();
-      });
+      return this.prompt(prompts, (function(_this) {
+        return function(props) {
+          _this.useRvm = props.useRvm;
+          _this.appName = props.appName;
+          _this.availability = props.availability;
+          _this.vendorUrl = props.vendorUrl;
+          _this.vendorName = props.vendorName;
+          _this.appDescription = props.appDescription;
+          _this.appKey = props.appKey;
+          return cb();
+        };
+      })(this));
     };
 
     HipchatAddonGenerator.prototype.app = function() {

@@ -7,14 +7,15 @@
 
   describe('hipchat-addon generator', function() {
     beforeEach(function(done) {
-      var _this = this;
-      return helpers.testDirectory(path.join(__dirname, 'temp'), function(err) {
-        if (err) {
-          return done(err);
-        }
-        _this.app = helpers.createGenerator('hipchat-addon:app', ['../../app']);
-        return done();
-      });
+      return helpers.testDirectory(path.join(__dirname, 'temp'), (function(_this) {
+        return function(err) {
+          if (err) {
+            return done(err);
+          }
+          _this.app = helpers.createGenerator('hipchat-addon:app', ['../../app']);
+          return done();
+        };
+      })(this));
     });
     return it('creates expected files', function(done) {
       var expected;
