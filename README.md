@@ -4,6 +4,8 @@
 > This [Yeoman](yeoman.io) generator will create a [Sinatra](http://www.sinatrarb.com/) + [Grape](https://github.com/intridea/grape) application
 with everything you need to integrate with Hipchat Connect, including optional [Stripe](https://stripe.com/) integration to help you sell your add-ons if you choose.
 
+> If you prefer to write addons using [Express](http://expressjs.com/), check out [Rich Manalang](http://about.me/rmanalan)'s excellent [atlassian-connect-express-hipchat](https://bitbucket.org/hipchat/atlassian-connect-express-hipchat) project instead.
+
 [![Build Status](https://secure.travis-ci.org/logankoester/generator-hipchat-addon.png?branch=master)](https://travis-ci.org/logankoester/generator-hipchat-addon)
 [![status](https://sourcegraph.com/api/repos/github.com/logankoester/generator-hipchat-addon/badges/status.png)](https://sourcegraph.com/github.com/logankoester/generator-hipchat-addon)
 [![Dependency Status](https://david-dm.org/logankoester/grunt-rasterize.png)](https://david-dm.org/logankoester/generator-hipchat-addon)
